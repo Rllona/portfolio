@@ -70,6 +70,19 @@ body {
   box-shadow: 0 0 20px rgba(106, 227, 255, 0.35);
 }
 
+.hero-illustration-placeholder {
+  min-height: 180px;
+  border: 2px dashed rgba(106, 227, 255, 0.45);
+  border-radius: 1rem;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(106, 227, 255, 0.14), rgba(139, 92, 246, 0.18));
+  color: #dbeafe;
+  font-weight: 600;
+}
+
 .photo-placeholder {
   min-height: 320px;
   border: 2px dashed rgba(106, 227, 255, 0.4);
@@ -140,6 +153,31 @@ body {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
+}
+
+.featured-projects {
+  background: linear-gradient(180deg, #f5f8ff 0%, #eef3ff 100%);
+  color: #07111f;
+}
+
+.featured-projects .section-title,
+.featured-projects .text-muted {
+  color: #07111f;
+}
+
+.featured-projects .featured-card {
+  background: #ffffff;
+  color: #07111f;
+  border: 1px solid rgba(7, 17, 31, 0.08);
+}
+
+.featured-projects .featured-card .card-text {
+  color: #334155;
+}
+
+.featured-projects .featured-card .card-footer {
+  background: #ffffff;
+  border-top: 1px solid rgba(7, 17, 31, 0.06);
 }
 
 .card {
