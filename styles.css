@@ -160,9 +160,10 @@ body {
 
 .project-media-card img {
   width: 100%;
-  height: 260px;
-  object-fit: cover;
+  height: 540px;
+  object-fit: contain;
   display: block;
+  background: rgba(7, 17, 31, 0.35);
 }
 
 .project-media-card .project-media-caption {
