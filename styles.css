@@ -130,6 +130,38 @@ body {
   border-bottom: 1px solid rgba(106, 227, 255, 0.2);
 }
 
+.project-hero-image {
+  min-height: 360px;
+  display: grid;
+  place-items: center;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(106, 227, 255, 0.25);
+  background: linear-gradient(135deg, rgba(106, 227, 255, 0.18), rgba(139, 92, 246, 0.2));
+  color: #dbeafe;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.project-info-card,
+.outcome-panel {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(106, 227, 255, 0.18);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.project-info-card h3,
+.outcome-panel h3 {
+  color: #6ae3ff;
+  font-size: 1.2rem;
+  margin-bottom: 0.9rem;
+}
+
+.project-detail-section {
+  background: rgba(255, 255, 255, 0.02);
+}
+
 .contact-icon {
   font-size: 2rem;
   width: 56px;
