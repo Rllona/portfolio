@@ -131,6 +131,7 @@ body {
 }
 
 .project-hero-image {
+  width: min(75%, 880px);
   min-height: 360px;
   display: grid;
   place-items: center;
@@ -141,6 +142,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .project-hero-image img {
@@ -173,7 +175,7 @@ body {
 }
 
 .horizontal-media-card img {
-  height: 520px;
+  height: 420px;
   object-fit: cover;
   object-position: center;
   aspect-ratio: 16 / 9;
@@ -181,13 +183,13 @@ body {
 
 .vertical-media-card {
   width: 100%;
-  max-width: 180px;
+  max-width: 220px;
   margin: 0 auto;
   min-height: 0;
 }
 
 .vertical-media-card img {
-  height: 240px;
+  height: 280px;
   object-fit: contain;
   object-position: center;
   aspect-ratio: 3 / 5;
