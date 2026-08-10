@@ -167,23 +167,29 @@ body {
 }
 
 .horizontal-media-card {
-  max-width: 620px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .horizontal-media-card img {
-  height: 360px;
+  height: 520px;
   object-fit: cover;
   object-position: center;
+  aspect-ratio: 16 / 9;
 }
 
 .vertical-media-card {
-  max-width: 220px;
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto;
 }
 
 .vertical-media-card img {
-  height: 420px;
+  height: 280px;
   object-fit: contain;
   object-position: center;
+  aspect-ratio: 3 / 5;
   background: rgba(7, 17, 31, 0.35);
 }
 
