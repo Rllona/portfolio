@@ -167,23 +167,24 @@ body {
 }
 
 .horizontal-media-card {
-  max-width: 420px;
+  max-width: 620px;
 }
 
 .horizontal-media-card img {
-  height: 320px;
+  height: 360px;
   object-fit: cover;
   object-position: center;
 }
 
 .vertical-media-card {
-  max-width: 320px;
+  max-width: 220px;
 }
 
 .vertical-media-card img {
-  height: 520px;
-  object-fit: cover;
+  height: 420px;
+  object-fit: contain;
   object-position: center;
+  background: rgba(7, 17, 31, 0.35);
 }
 
 .project-media-card .project-media-caption {
