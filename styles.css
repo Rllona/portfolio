@@ -131,8 +131,8 @@ body {
 }
 
 .project-hero-image {
-  width: min(75%, 880px);
-  min-height: 360px;
+  width: min(75%, 980px);
+  min-height: 500px;
   display: grid;
   place-items: center;
   border-radius: 1.25rem;
@@ -147,11 +147,47 @@ body {
 
 .project-hero-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  min-height: 500px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   object-position: center;
   display: block;
+}
+
+.characteristics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem 1.5rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 2rem;
+}
+
+.characteristics-grid li {
+  position: relative;
+  padding-left: 1.15rem;
+  color: #f3f7ff;
+}
+
+.characteristics-grid li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #6ae3ff;
+  font-weight: bold;
+}
+
+.project-map-wrapper {
+  max-width: 760px;
+  margin: 1.5rem auto 0;
+}
+
+.project-map-wrapper img {
+  width: 100%;
+  max-width: 760px;
+  display: block;
+  margin: 0 auto;
 }
 
 .project-media-card {
