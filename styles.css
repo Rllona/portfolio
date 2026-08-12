@@ -132,7 +132,6 @@ body {
 
 .project-hero-image {
   width: min(75%, 980px);
-  min-height: 500px;
   display: grid;
   place-items: center;
   border-radius: 1.25rem;
@@ -147,12 +146,9 @@ body {
 
 .project-hero-image img {
   width: 100%;
-  height: 100%;
-  min-height: 500px;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
   display: block;
+  border-radius: 1rem;
 }
 
 .characteristics-grid {
@@ -188,6 +184,8 @@ body {
   max-width: 760px;
   display: block;
   margin: 0 auto;
+  height: auto;
+  border-radius: 1rem;
 }
 
 .project-media-card {
@@ -195,14 +193,16 @@ body {
   border: 1px solid rgba(106, 227, 255, 0.18);
   border-radius: 1rem;
   overflow: hidden;
-  height: 100%;
   margin: 0 auto;
 }
 
 .project-media-card img {
   width: 100%;
+  height: auto;
   display: block;
-  background: rgba(7, 17, 31, 0.35);
+  object-fit: contain;
+  object-position: center;
+  border-radius: 1rem;
 }
 
 .horizontal-media-card {
@@ -212,24 +212,24 @@ body {
 }
 
 .horizontal-media-card img {
-  height: 420px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
   object-position: center;
-  aspect-ratio: 16 / 9;
+  border-radius: 1rem;
 }
 
 .vertical-media-card {
   width: 100%;
   max-width: 220px;
   margin: 0 auto;
-  min-height: 0;
 }
 
 .vertical-media-card img {
-  height: 280px;
+  width: 100%;
+  height: auto;
   object-fit: contain;
   object-position: center;
-  aspect-ratio: 3 / 5;
   background: rgba(7, 17, 31, 0.35);
 }
 
