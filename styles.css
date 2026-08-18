@@ -39,6 +39,12 @@ body {
   overflow: hidden;
 }
 
+.page-hero.minimal {
+  min-height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .hero::after,
 .page-hero::after {
   content: "";
@@ -292,6 +298,12 @@ body {
 .featured-projects .section-title,
 .featured-projects .text-muted {
   color: #07111f;
+}
+
+.featured-project-image {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .featured-projects .featured-card {
