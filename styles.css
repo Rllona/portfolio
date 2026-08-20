@@ -172,6 +172,10 @@ main {
   border-radius: 1rem;
 }
 
+.galaxy-hero .project-hero-image {
+  width: min(60%, 760px);
+}
+
 .characteristics-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -313,6 +317,10 @@ main {
 .featured-projects .section-title,
 .featured-projects .text-muted {
   color: #07111f;
+}
+
+.featured-projects .card-text {
+  color: #334155;
 }
 
 .hero-title {
