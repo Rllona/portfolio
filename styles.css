@@ -151,6 +151,11 @@ main {
   border-radius: 1rem 1rem 0 0;
 }
 
+.project-card {
+  border-radius: 1rem !important;
+  overflow: hidden;
+}
+
 .project-hero-image {
   width: min(75%, 980px);
   display: grid;
