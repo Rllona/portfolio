@@ -48,7 +48,7 @@
       </div>
     </nav>
 
-    <header class="hero py-5">
+    <header class="py-5">
       <div class="container py-5">
         <div class="row align-items-center g-5">
           <div class="col-lg-7">
@@ -62,16 +62,13 @@
               Developing immersive experiences for gaming and simulations.
             </p>
             <div class="d-flex flex-wrap gap-2">
-              <a class="btn btn-light btn-lg" href="projects.html">See my projects</a>
-              <a class="btn btn-outline-light btn-lg" href="contact.html">Get in touch</a>
+              <a class="btn btn-primary btn-lg" href="projects.html">See my projects</a>
+              <a class="btn btn-outline-primary btn-lg" href="contact.html">Get in touch</a>
             </div>
           </div>
           <div class="col-lg-5">
-            <div class="hero-card text-center p-4 shadow">
-              <div class="hero-illustration-placeholder mx-auto mb-3" aria-hidden="true">
-                <span>Future icon / illustration</span>
-              </div>
-              <p class="mb-0">A placeholder space for a future visual asset.</p>
+            <div class="text-center p-4">
+              <img class="hero-illustration" src="resources/mainIllustration.png" alt="Raúl Llona game development illustration" />
             </div>
           </div>
         </div>
@@ -82,55 +79,63 @@
       <section class="py-5 featured-projects">
         <div class="container">
           <div class="text-center mb-4">
-            <h2 class="section-title">Featured projects</h2>
-            <p class="text-muted">A selection of my recent work in game development and interactive simulations.</p>
+            <h2 class="section-title">Featured Projects</h2>
           </div>
-          <div class="row g-5 justify-content-center">
-            <div class="col-md-6 col-lg-3">
-              <div class="card project-card h-100 shadow-sm border-0">
-                <img class="project-logo" src="resources/galaxyTrotter/galaxyTrotterLogo.png" alt="Galaxy Trotter logo" />
-                <div class="card-body">
-                  <p class="card-text">A sci-fi narrative-driven videogame focused on galactic conflicts, alien drinks and player choices.</p>
+          <div class="row g-5 justify-content-center featured-projects-grid">
+            <div class="col-md-6 col-lg-4">
+              <a class="project-card-link" href="galaxy-trotter.html">
+                <div class="card project-card h-100 shadow-sm border-0">
+                  <img class="project-logo" src="resources/galaxyTrotter/galaxyTrotterLogo.png" alt="Galaxy Trotter logo" />
+                  <div class="card-body">
+                    <h5 class="card-title">Galaxy Trotter</h5>
+                    <p class="card-text">A sci-fi narrative-driven videogame focused on galactic conflicts, alien drinks and player choices.</p>
+                    <div class="project-pills"><span>Videogame</span><span>Unity</span></div>
+                  </div>
+                  <div class="project-card-arrow" aria-hidden="true">⟩</div>
                 </div>
-                <div class="card-footer bg-white border-0">
-                  <a href="galaxy-trotter.html" class="btn btn-outline-primary">View project</a>
-                </div>
-              </div>
+              </a>
             </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="card project-card h-100 shadow-sm border-0">
-                <img class="project-logo" src="resources/quimilab/quimilabLogo.png" alt="Quimilab logo" />
-                <div class="card-body">
-                  <p class="card-text">An educational videogame and chemistry simulator designed to make learning interactive and engaging.</p>
+            <div class="col-md-6 col-lg-4">
+              <a class="project-card-link" href="quimilab.html">
+                <div class="card project-card h-100 shadow-sm border-0">
+                  <img class="project-logo" src="resources/quimilab/quimilabLogo.png" alt="Quimilab logo" />
+                  <div class="card-body">
+                    <h5 class="card-title">Quimilab</h5>
+                    <p class="card-text">An educational videogame and chemistry simulator designed to make learning interactive and engaging.</p>
+                    <div class="project-pills"><span>Serious Game</span><span>Simulator</span><span>Unity</span></div>
+                  </div>
+                  <div class="project-card-arrow" aria-hidden="true">⟩</div>
                 </div>
-                <div class="card-footer bg-white border-0">
-                  <a href="quimilab.html" class="btn btn-outline-primary">View project</a>
-                </div>
-              </div>
+              </a>
             </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="card project-card h-100 shadow-sm border-0">
-                <img class="project-logo" src="resources/lightInsight/lightInsightLogo.png" alt="Light Insight logo" />
-                <div class="card-body">
-                  <p class="card-text">A small 2D horror game built around tension, atmosphere, and 3 concise rules the player must follow.</p>
+            <div class="col-md-6 col-lg-4">
+              <a class="project-card-link" href="light-insight.html">
+                <div class="card project-card h-100 shadow-sm border-0">
+                  <img class="project-logo" src="resources/lightInsight/lightInsightLogo.png" alt="Light Insight logo" />
+                  <div class="card-body">
+                    <h5 class="card-title">Light Insight</h5>
+                    <p class="card-text">A small 2D horror game built around tension, atmosphere, and 3 concise rules the player must follow.</p>
+                    <div class="project-pills"><span>Videogame</span><span>Unity</span></div>
+                  </div>
+                  <div class="project-card-arrow" aria-hidden="true">⟩</div>
                 </div>
-                <div class="card-footer bg-white border-0">
-                  <a href="light-insight.html" class="btn btn-outline-primary">View project</a>
-                </div>
-              </div>
+              </a>
             </div>
+          </div>
+          <div class="text-center mt-5">
+            <a class="btn btn-outline-primary btn-lg projects-view-all" href="projects.html">View all projects <span aria-hidden="true">➝</span></a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="bg-dark text-white py-2">
+    <footer class="footer text-white py-2">
       <div class="container d-flex flex-column gap-2 align-items-center">
         <span>© 2026 Raúl Llona</span>
         <div class="footer-icons d-flex gap-3">
-          <a href="mailto:raul_llona@hotmail.com" aria-label="Email" class="text-white">✉️</a>
-          <a href="https://www.linkedin.com/in/raúl-llona-cabeza-6336a7273" target="_blank" rel="noreferrer" aria-label="LinkedIn" class="text-white">in</a>
-          <a href="https://rllona.itch.io/" target="_blank" rel="noreferrer" aria-label="Itch.io" class="text-white">🎮</a>
+          <a href="mailto:raul_llona@hotmail.com" aria-label="Email" class="text-white"><img src="resources/mailLogo.png" alt="Email" /></a>
+          <a href="https://www.linkedin.com/in/raúl-llona-cabeza-6336a7273" target="_blank" rel="noreferrer" aria-label="LinkedIn" class="text-white"><img src="resources/linkedinLogo.png" alt="LinkedIn" /></a>
+          <a href="https://rllona.itch.io/" target="_blank" rel="noreferrer" aria-label="Itch.io" class="text-white"><img src="resources/itchioLogo.png" alt="Itch.io" /></a>
         </div>
       </div>
     </footer>
