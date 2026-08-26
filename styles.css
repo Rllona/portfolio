@@ -40,30 +40,30 @@ main {
 
 main > section:nth-child(odd) {
   background: #081B29;
+  --card-bg: #122E43;
 }
 
 main > section:nth-child(even) {
   background: #122E43;
+  --card-bg: #081B29;
 }
 
 .profile-photo {
-  width: 100%;
+  width: 85%;
   min-height: 320px;
   max-height: 520px;
   object-fit: cover;
-  object-position: 68% center;
-  border: 1px solid rgba(4, 170, 234, 0.4);
+  object-position: center;
   border-radius: 1rem;
 }
 
 .page-title {
   letter-spacing: 0.08em;
   color: #04AAEA;
-  /*text-shadow: 0 0 18px rgba(4, 170, 234, 0.35);*/
 }
 
-.about-intro p:last-child {
-  margin-bottom: 0;
+.about-intro p {
+  text-align: justify;
 }
 
 .project-logo {
@@ -91,7 +91,7 @@ main > section:nth-child(even) {
 .project-card {
   position: relative;
   min-height: 100%;
-  background: rgba(20, 23, 26, 0.95) !important;
+  background: #081B29 !important;
   color: #f3f7ff;
   border-radius: 1rem !important;
   overflow: hidden;
@@ -162,6 +162,7 @@ main > section:nth-child(even) {
   border-radius: 1rem;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1.5rem;
 }
 
 .characteristics-grid {
@@ -202,7 +203,7 @@ main > section:nth-child(even) {
 }
 
 .project-media-card {
-  background: rgba(20, 23, 26, 0.95);
+  background: var(--card-bg);
   border-radius: 1rem;
   overflow: hidden;
   margin: 0 auto;
@@ -247,14 +248,13 @@ main > section:nth-child(even) {
 
 .project-media-card .project-media-caption {
   padding: 0.9rem 1rem 1.1rem;
-  color: #acb7c6;
+  color: #8f97a3;
   font-weight: 600;
 }
 
 .project-info-card,
 .outcome-panel {
-  background: #122E43;
-  border: 1px solid rgba(4, 170, 234, 0.18);
+  background: var(--card-bg);
   border-radius: 1rem;
   padding: 1.5rem;
   height: 100%;
@@ -265,10 +265,6 @@ main > section:nth-child(even) {
   color: #04AAEA;
   font-size: 1.2rem;
   margin-bottom: 0.9rem;
-}
-
-.project-detail-section {
-  background: #122E43 !important;
 }
 
 .contact-icon {
@@ -320,7 +316,7 @@ main > section:nth-child(even) {
 
 .hero-title {
   font-size: clamp(2rem, 3vw, 3rem);
-  line-height: 1.1;
+  line-height: 1.32;
   font-weight: 700;
 }
 
@@ -355,11 +351,14 @@ main > section:nth-child(even) {
 
 footer {
   font-size: 0.95rem;
-  background: rgba(20, 23, 26, 0.95) !important;
+  background: rgba(20, 23, 30, 0.95) !important;
 }
 
 .bg-primary {
   background-color: #04AAEA !important;
+  color: #081B29;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .btn-primary {
@@ -392,6 +391,12 @@ footer {
 .btn-outline-primary:hover {
   background: linear-gradient(90deg, #04AAEA, #6cc4e7);
   color: #f3f7ff;
-  border-color: #04AAEA;
+  border-color: transparent;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .project-hero-image img {
+        width: 100%;
+    }
 }
