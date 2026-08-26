@@ -395,8 +395,11 @@ footer {
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .project-hero-image img {
         width: 100%;
+    }
+    .about-intro p {
+      text-align: start;
     }
 }
