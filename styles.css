@@ -19,6 +19,7 @@ main {
 .navbar {
   background: rgba(7, 17, 31, 0.9) !important;
   backdrop-filter: blur(10px);
+  font-size: 1.15rem;
 }
 
 .navbar .nav-link.active {
@@ -140,11 +141,13 @@ main > section:nth-child(even) {
   place-items: center;
   border-radius: 50%;
   background: rgba(56, 67, 83, 0.5);
-  color: #f3f7ff;
-  font-size: 1.2rem;
-  line-height: 1;
-  font-weight: 500;
-  padding-bottom: 6px;
+}
+
+.project-card-arrow img {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+  transform: translateX(8%);
 }
 
 .hero-illustration {
