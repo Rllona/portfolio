@@ -33,12 +33,6 @@ main {
   margin-right: auto;
 }
 
-.projects-view-all {
-  min-width: 220px;
-  border-width: 2px;
-  font-weight: 600;
-}
-
 main > section:nth-child(odd) {
   background: #081B29;
   --card-bg: #122E43;
