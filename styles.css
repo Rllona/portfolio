@@ -138,9 +138,9 @@ main > section:nth-child(even) {
 }
 
 .project-card-arrow img {
-  width: 12px;
   height: 12px;
-  object-fit: contain;
+  width: auto;
+  display: block;
   transform: translateX(8%);
 }
 
